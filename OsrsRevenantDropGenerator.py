@@ -40,32 +40,21 @@ def verify(sk,kill):
 
 def itemImages():
 
-    dropItemImageName = ["RevenantFiles/images/Revenant_ether_5.png","RevenantFiles/images/Coins_10000.png",
-                         "RevenantFiles/images/Amulet_of_avarice.png","RevenantFiles/images/Craw's_bow_(u).png",
-                         "RevenantFiles/images/Thammaron's_sceptre_(u).png","RevenantFiles/images/Viggora's_chainmace_(u).png",
-                         "RevenantFiles/images/Ancient_emblem.png","RevenantFiles/images/Ancient_totem.png",
-                         "RevenantFiles/images/Ancient_statuette.png","RevenantFiles/images/Ancient_crystal.png",
-                         "RevenantFiles/images/Ancient_medallion.png","RevenantFiles/images/Ancient_effigy.png",
-                         "RevenantFiles/images/Ancient_relic.png","RevenantFiles/images/Bracelet_of_ethereum_(uncharged).png",
-                         "RevenantFiles/images/Battlestaff.png","RevenantFiles/images/Rune_full_helm.png",
-                         "RevenantFiles/images/Rune_platebody.png","RevenantFiles/images/Rune_platelegs.png",
-                         "RevenantFiles/images/Rune_kiteshield.png","RevenantFiles/images/Rune_warhammer.png",
-                         "RevenantFiles/images/Dragon_platelegs.png","RevenantFiles/images/Dragon_plateskirt.png",
-                         "RevenantFiles/images/Dragon_dagger.png","RevenantFiles/images/Dragon_longsword.png",
-                         "RevenantFiles/images/Dragon_med_helm.png","RevenantFiles/images/Dragonstone_bolt_tips_5.png",
-                         "RevenantFiles/images/Onyx_bolt_tips_5.png","RevenantFiles/images/Death_rune.png",
-                         "RevenantFiles/images/Blood_rune.png","RevenantFiles/images/Law_rune.png",
-                         "RevenantFiles/images/Coal.png","RevenantFiles/images/Adamantite_bar.png",
-                         "RevenantFiles/images/Runite_ore.png","RevenantFiles/images/Runite_bar.png",
-                         "RevenantFiles/images/Black_dragonhide.png","RevenantFiles/images/Mahogany_plank.png",
-                         "RevenantFiles/images/Manta_ray.png","RevenantFiles/images/Yew_logs.png",
-                         "RevenantFiles/images/Magic_logs.png","RevenantFiles/images/Uncut_dragonstone.png",
-                         "RevenantFiles/images/Magic_seed_5.png","RevenantFiles/images/Revenant_cave_teleport.png",
-                         "RevenantFiles/images/Super_restore(4).png"]
+    dropItemImageName = ["Revenant_ether_5.png","Coins_10000.png","Amulet_of_avarice.png","Craw's_bow_(u).png",
+                         "Thammaron's_sceptre_(u).png","Viggora's_chainmace_(u).png","Ancient_emblem.png",
+                         "Ancient_totem.png","Ancient_statuette.png","Ancient_crystal.png","Ancient_medallion.png",
+                         "Ancient_effigy.png","Ancient_relic.png","Bracelet_of_ethereum_(uncharged).png",
+                         "Battlestaff.png","Rune_full_helm.png","Rune_platebody.png","Rune_platelegs.png",
+                         "Rune_kiteshield.png","Rune_warhammer.png","Dragon_platelegs.png","Dragon_plateskirt.png",
+                         "Dragon_dagger.png","Dragon_longsword.png","Dragon_med_helm.png","Dragonstone_bolt_tips_5.png",
+                         "Onyx_bolt_tips_5.png","Death_rune.png","Blood_rune.png","Law_rune.png","Coal.png",
+                         "Adamantite_bar.png","Runite_ore.png","Runite_bar.png","Black_dragonhide.png",
+                         "Mahogany_plank.png","Manta_ray.png","Yew_logs.png","Magic_logs.png","Uncut_dragonstone.png",
+                         "Magic_seed_5.png","Revenant_cave_teleport.png","Super_restore(4).png"]
 
     dropItemImage = []
     for i in range(0,len(dropItemImageName)):
-        x = PhotoImage(file=dropItemImageName[i])
+        x = PhotoImage(file="RevenantFiles/images/"+dropItemImageName[i])
         dropItemImage.append(x)
 
     dropItemX = [450,550,650,650,740,740,450,450,550,550,650,650,750,450,450,450,550,550,550,650,650,650,750,750,750,450,
