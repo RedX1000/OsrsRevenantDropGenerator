@@ -223,7 +223,7 @@ def menu(skullS,killsS,levelS,outputBoxX,outputBoxY):
             mediocreDrops(totalDrops)
 
         totalKills += 1
-        print(totalKills)
+        #print(totalKills)
 
     for i in range(0,len(totalDrops)):
         if i == 0: #Ether
