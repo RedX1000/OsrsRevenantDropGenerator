@@ -223,10 +223,8 @@ def menu(skullS,killsS,levelS,outputBoxX,outputBoxY):
             mediocreDrops(totalDrops)
 
         totalKills += 1
-        '''
-        This print statement is useless rn
-        print(totalKills)
-        '''
+        #print(totalKills)
+
 
     for i in range(0,len(totalDrops)):
         if i == 0: #Ether
